@@ -1,0 +1,38 @@
+{
+  "categories": [
+    {
+      "name": "Shoes",
+      "id": 1
+    },
+    {
+      "name": "Mens wear",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "category": "1",
+      "name": "fdd",
+      "price": "34",
+      "description": "fdvdfc",
+      "quantity": "4",
+      "id": 1
+    },
+    {
+      "category": "1",
+      "name": "trtytr",
+      "price": "234",
+      "description": "dfdfd",
+      "quantity": "4",
+      "id": 2
+    },
+    {
+      "category": "2",
+      "name": "shirt",
+      "price": "260",
+      "description": "ggvsdcjhkfdv",
+      "quantity": "34",
+      "id": 3
+    }
+  ]
+}
