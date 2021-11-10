@@ -14,5 +14,10 @@ Ext.define('Shopping.view.base.MainAppController',{
             xtype: 'loginform'
         })
 console.log("Login btn clicked");
+    },
+
+    onSearchEventListener: function(){
+        let value = this.getKeyMap();
+        console.log(value);
     }
 });

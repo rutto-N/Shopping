@@ -12,6 +12,12 @@ Ext.define('Shopping.view.base.MainApp',{
             tbar:[
                 '->',
                 {
+                    xtype    : 'textfield',
+                    name     : 'field1',
+                    emptyText: 'Search...',
+                    handler: 'onSearchEventListener'
+                },
+                {
                     text:'Register',
                     handler: 'onRegisterBtnClick'
                 },
