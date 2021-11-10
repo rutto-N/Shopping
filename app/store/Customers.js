@@ -5,6 +5,7 @@ Ext.define('Shopping.store.Customers', {
     alias: 'store.customers',
     
     model: 'Shopping.model.Customer',
+    groupField: 'industry',
 
     proxy: {
     type: 'rest',
@@ -14,8 +15,8 @@ Ext.define('Shopping.store.Customers', {
         rootProperty: 'customers'
     }
 },
-grouped: true,
 autoLoad: true,
+
 
     
 });

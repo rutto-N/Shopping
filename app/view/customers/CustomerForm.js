@@ -5,29 +5,36 @@ Ext.define('Shopping.view.customers.CustomerForm',{
     modal:true,
     autoShow:true,
     shadow:true,
-    width: 800,
+    width: 500,
     items:[{
         xtype:'form',
         title:'New Customer',
         reference: 'add-customerform',
-        defaults: {
-            anchor: '100%'
-        },
-        items:[
-            {
-                fieldLabel: 'Customer Name',
-                xtype:'textfield',
-                name: 'name',
-                allowBlank:false
+       items:[
+           {
+            xtype:'fieldset',
+            defaults:{
+                anchor:'90%'
+
             },
-            {
-                fieldLabel: 'Location',
-                xtype:'textfield',
-                name: 'location',
-                allowBlank:false,
-                hideTrigger:true
-            },
-        ]
+            items:[
+                {
+                    fieldLabel: 'Customer Name',
+                    xtype:'textfield',
+                    name: 'name',
+                    allowBlank:false
+                },
+                {
+                    fieldLabel: 'Location',
+                    xtype:'textfield',
+                    name: 'location',
+                    allowBlank:false,
+                    hideTrigger:true
+                },
+            ]
+           }
+       ]
+        
         }],
     buttons:[{
         text:'Save',

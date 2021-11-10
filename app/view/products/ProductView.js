@@ -42,13 +42,13 @@ Ext.define('Shopping.view.products.ProductView',{
     plugins: [{
         ptype: 'rowexpander',
         rowBodyTpl : new Ext.XTemplate(
-            '<p><b>Item:</b> {name}</p>',
-            '<p><b>Price:</b> {quantity:this.formatCurrency}</p>',
+            '<p><b>Product Name:</b> {name}</p>',
+            '<p><b>Price:</b> {price:this.formatCurrency}</p>',
             '<p><b>Description:</b> {description}</p>',
         {
-            formatCurrency: function(v){
-                var color = v >= 0 ? 'green' : 'red';
-                return '<span style="color: ' + color + ';">' + Ext.util.Format.currency(v,["Kshs. "],) + '</span>';
+            formatCurrency: function(value){
+                var color = value >= 0 ? 'green' : 'red';
+                return '<span style="color: ' + color + ';">' + Ext.util.Format.currency(value,["Kshs. "],) + '</span>';
             }
         })
     }],
@@ -58,14 +58,6 @@ Ext.define('Shopping.view.products.ProductView',{
             text:'Add',
             handler:'onNewProduct'
         },
-        // {
-        //     text:'View',
-        //     handler:'onProductDetailsView',
-        //     bind: {
-        //         disabled: '{!productview.selection}'
-        //     }
-
-        // },
         '->',
         {
             text:'Delete',

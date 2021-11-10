@@ -5,6 +5,8 @@ Ext.define('Shopping.store.Orders', {
     
     model: 'Shopping.model.Order',
 
+    groupers: ['date','customerId'],
+
     proxy: {
     type: 'rest',
     url: 'http://localhost:3000/orders',
@@ -15,10 +17,6 @@ Ext.define('Shopping.store.Orders', {
 },
 
 autoLoad: true,
-groupField: 'customerId',
-groupDir: 'DESC',
-sorters:'quantity'
 
-
-    
+ 
 });

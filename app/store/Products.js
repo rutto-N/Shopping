@@ -4,6 +4,7 @@ Ext.define('Shopping.store.Products', {
     alias: 'store.products',
     
     model: 'Shopping.model.Product',
+    
 
     proxy: {
     type: 'rest',

@@ -3,24 +3,64 @@
     {
       "id": 1,
       "name": "Food"
+    },
+    {
+      "id": 2,
+      "name": "Furniture"
+    },
+    {
+      "id": 3,
+      "name": "Women's Wear"
+    },
+    {
+      "id": 4,
+      "name": "Utensils"
+    },
+    {
+      "id": 5,
+      "name": "BedSheets"
     }
   ],
   "products": [
     {
+      "id": 3,
       "category": "1",
-      "name": "fdd",
-      "price": "34",
-      "description": "fdvdfc",
-      "quantity": "4",
-      "id": 1
+      "name": "Milk",
+      "price": "40",
+      "description": "Fresh",
+      "quantity": "3"
     },
     {
-      "category": "1",
-      "name": "trtytr",
-      "price": "234",
-      "description": "dfdfd",
-      "quantity": "4",
-      "id": 2
+      "id": 4,
+      "category": "2",
+      "name": "Dining Table",
+      "price": "25000",
+      "description": "Made In Kenya",
+      "quantity": "39000"
+    },
+    {
+      "id": 5,
+      "category": "2",
+      "name": "efef",
+      "price": "232",
+      "description": "erfdcdc",
+      "quantity": "232"
+    },
+    {
+      "id": 6,
+      "category": "2",
+      "name": "eer",
+      "price": "343",
+      "description": "qwewd",
+      "quantity": "232"
+    },
+    {
+      "id": 7,
+      "category": "3",
+      "name": "yru",
+      "price": "54545",
+      "description": "werewf",
+      "quantity": "44"
     }
   ],
   "prods": [

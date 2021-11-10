@@ -1,10 +1,14 @@
 Ext.define('Shopping.view.orders.OrderGridView',{
     extend: 'Ext.panel.Panel',
     xtype:'ordergridview',
-    // controller:'customerorderviewformcontroller',
     width: 500,
     height: 300,
     referenceHolder: true,
+    features: [{
+        ftype: 'advancedgroupingsummary',
+        startCollapsed:true
+      
+        }],
     layout: {
         type: 'hbox',
         align: 'stretch'
@@ -17,12 +21,7 @@ Ext.define('Shopping.view.orders.OrderGridView',{
             }
         }
     },
-    features: [{
-        ftype: 'grouping',
-        // You can customize the group’s header.
-        groupHeaderTpl: '{name} ({children.length})',
-        enableNoGroups:true
-        }],
+  
     items: [{
                 title: 'Orders',
                 xtype: 'grid',

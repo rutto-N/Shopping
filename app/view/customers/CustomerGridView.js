@@ -25,6 +25,7 @@ Ext.define('Shopping.view.customers.CustomerGridView',{
         bind: '{customers}',
         reference: 'customerGrid',
         flex: 1,
+     
         columns: [{
             text: 'Name', dataIndex: 'name', flex: 1
         },
@@ -50,6 +51,7 @@ Ext.define('Shopping.view.customers.CustomerGridView',{
      
     
     ],
+    
     plugins: [{
         ptype: 'rowexpander',
         rowBodyTpl : new Ext.XTemplate(
@@ -64,6 +66,13 @@ Ext.define('Shopping.view.customers.CustomerGridView',{
         })
     }],}
   
-]
+],
 
+features: [{
+    ftype: 'advancedgroupingsummary',
+    startCollapsed:true
+    // You can customize the group’s header.
+    // groupHeaderTpl: '{name} ({children.length})',
+    // enableNoGroups:true
+    }],
 });
