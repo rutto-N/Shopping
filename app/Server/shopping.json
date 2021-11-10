@@ -2,11 +2,7 @@
   "categories": [
     {
       "id": 1,
-      "name": "Food Stuff"
-    },
-    {
-      "name": "Furniture",
-      "id": 4
+      "name": "Food"
     }
   ],
   "products": [
@@ -25,14 +21,6 @@
       "description": "dfdfd",
       "quantity": "4",
       "id": 2
-    },
-    {
-      "category": "2",
-      "name": "shirt",
-      "price": "260",
-      "description": "ggvsdcjhkfdv",
-      "quantity": "34",
-      "id": 3
     }
   ],
   "prods": [
@@ -174,6 +162,160 @@
         "name": "FOOD STUFF"
       },
       "orders": []
+    }
+  ],
+  "orders": [
+    {
+      "id": 8,
+      "customerId": 4,
+      "productCode": "8a8e3e19-d972-458e-a3c4-b5ddb72b03c9",
+      "quantity": 40,
+      "date": "2015-10-18",
+      "shipped": false
+    },
+    {
+      "id": 20,
+      "customerId": 1,
+      "productCode": "1874c634-b7ee-4363-bdb9-feb9abed3d52",
+      "quantity": 31,
+      "date": "2015-10-01",
+      "shipped": false
+    },
+    {
+      "id": 38,
+      "customerId": 4,
+      "productCode": "07a8c672-c0b5-4321-aa55-a93882ecda52",
+      "quantity": 59,
+      "date": "2015-10-08",
+      "shipped": true
+    },
+    {
+      "id": 40,
+      "customerId": 6,
+      "productCode": "bfce1d56-d2db-42e7-afe5-861a51f85ea3",
+      "quantity": 2,
+      "date": "2015-10-10",
+      "shipped": true
+    },
+    {
+      "id": 47,
+      "customerId": 2,
+      "productCode": "c9def79e-e404-4bdc-9fe9-da6c82306277",
+      "quantity": 30,
+      "date": "2015-10-15",
+      "shipped": false
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Roodel",
+      "phone": "602-736-2835",
+      "price": 59.47,
+      "change": 1.23,
+      "lastChange": "10/8",
+      "industry": "Manufacturing",
+      "desc": "In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.\n\nNulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n\nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
+      "pctChange": 2.11
+    },
+    {
+      "id": 2,
+      "name": "Voomm",
+      "phone": "662-254-4213",
+      "price": 41.31,
+      "change": 2.64,
+      "lastChange": "10/18",
+      "industry": "Services",
+      "desc": "Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
+      "pctChange": 6.83
+    },
+    {
+      "id": 3,
+      "name": "Dabvine",
+      "phone": "745-225-8364",
+      "price": 29.94,
+      "change": 3.55,
+      "lastChange": "10/11",
+      "industry": "Finance",
+      "desc": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.",
+      "pctChange": 13.45
+    },
+    {
+      "id": 4,
+      "name": "Twitterbeat",
+      "phone": "862-540-4332",
+      "price": 89.96,
+      "change": -3.82,
+      "lastChange": "10/2",
+      "industry": "Computer",
+      "desc": "Sed ante. Vivamus tortor. Duis mattis egestas metus.",
+      "pctChange": -4.07
+    },
+    {
+      "id": 5,
+      "name": "Lajo",
+      "phone": "351-170-1070",
+      "price": 65.51,
+      "change": 1.48,
+      "lastChange": "10/14",
+      "industry": "Manufacturing",
+      "desc": "Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
+      "pctChange": 2.31
+    },
+    {
+      "id": 6,
+      "name": "Livetube",
+      "phone": "745-259-7013",
+      "price": 52.34,
+      "change": 0.91,
+      "lastChange": "10/3",
+      "industry": "Automotive",
+      "desc": "In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
+      "pctChange": 1.77
+    },
+    {
+      "id": 7,
+      "name": "Flipstorm",
+      "phone": "255-457-6789",
+      "price": 41.81,
+      "change": -1.58,
+      "lastChange": "10/9",
+      "industry": "Retail",
+      "desc": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.\n\nPraesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.\n\nMorbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
+      "pctChange": -3.64
+    },
+    {
+      "id": 8,
+      "name": "Oloo",
+      "phone": "862-723-7988",
+      "price": 53.27,
+      "change": 2.06,
+      "lastChange": "10/14",
+      "industry": "Finance",
+      "desc": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+      "pctChange": 4.02
+    },
+    {
+      "id": 9,
+      "name": "Roombo",
+      "phone": "622-156-8067",
+      "price": 21.53,
+      "change": -4.04,
+      "lastChange": "10/13",
+      "industry": "Services",
+      "desc": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
+      "pctChange": -15.8
+    },
+    {
+      "id": 10,
+      "name": "Ntags",
+      "phone": "482-558-5069",
+      "price": 34.31,
+      "change": 2.94,
+      "lastChange": "10/14",
+      "industry": "Food",
+      "desc": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",
+      "pctChange": 9.37
     }
   ]
 }

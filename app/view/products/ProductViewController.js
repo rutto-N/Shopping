@@ -18,7 +18,7 @@ Ext.define('Shopping.view.products.ProductViewController', {
         xtype: "productform",
       });
       if (record) {
-        let form = window.lookupReference("add-productform").getForm();
+        let form = window.up("add-productform").getForm();
         form.loadRecord(record);
       }
       
@@ -40,8 +40,9 @@ Ext.define('Shopping.view.products.ProductViewController', {
       var me = this,
       grid = me.getView(),
       record = me.getSelectedRecord();
+      console.log(record);
   if (record) {
-      var url = `http://localhost:3000/categories/${record.get('id')}`;
+      var url = `http://localhost:3000/products/${record.get('id')}`;
       me.removeSelectedRecord(url, grid);
   }
   

@@ -58,14 +58,14 @@ Ext.define('Shopping.view.products.ProductView',{
             text:'Add',
             handler:'onNewProduct'
         },
-        {
-            text:'View',
-            handler:'onProductDetailsView',
-            bind: {
-                disabled: '{!productview.selection}'
-            }
+        // {
+        //     text:'View',
+        //     handler:'onProductDetailsView',
+        //     bind: {
+        //         disabled: '{!productview.selection}'
+        //     }
 
-        },
+        // },
         '->',
         {
             text:'Delete',

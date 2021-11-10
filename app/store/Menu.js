@@ -8,26 +8,27 @@ Ext.define('Shopping.store.Menu',{
             {
                 text: 'Category View',
                 xtype:'categoryview'
-               
-            },
-            {
-                text: 'Products',
-                xtype:'productform',
-                
             },
             {
                 text: 'Product View',
                 xtype:'productview',
-                
             },
             {
                 text:'Customer',
                 xtype:'customerform',
-
             },
             {
                 text:'Order Now',
                 xtype:'orderform'
+            },
+            {
+                text:'Customer',
+                xtype:'customergridview'
+            },
+            {
+                text:'Orders',
+                xtype:'ordergridview'
+
             }
 
         ]

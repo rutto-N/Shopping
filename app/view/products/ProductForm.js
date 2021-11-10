@@ -11,13 +11,13 @@ Ext.define('Shopping.view.products.ProductForm',{
     modal:true,
     autoShow:true,
     shadow:true,
-    width: 800,
-    reference: 'add-productform',
-    
+       
     items:[{
         defaults: {
-            anchor: '100%'
+            anchor: '100%',
+        
         },
+        reference: 'add-productform',
         items :[
             {
                 fieldLabel: 'Id',

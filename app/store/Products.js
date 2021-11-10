@@ -6,7 +6,7 @@ Ext.define('Shopping.store.Products', {
     model: 'Shopping.model.Product',
 
     proxy: {
-    type: 'ajax',
+    type: 'rest',
     url: 'http://localhost:3000/products',
     reader: {
         type: 'json',
