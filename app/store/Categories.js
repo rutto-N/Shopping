@@ -1,4 +1,5 @@
 Ext.define('Shopping.store.Categories', {
+    
     extend: 'Ext.data.Store',
 
     alias: 'store.categories',

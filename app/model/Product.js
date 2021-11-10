@@ -17,20 +17,20 @@ Ext.define('Shopping.model.Product', {
         reference:'Shopping.model.Category'
         
     },
-    {
-        name:'price',
-        type:'number',
+    // {
+    //     name:'price',
+    //     type:'number',
 
-    },
-    {
-        name:'description',
-        type:'string'
+    // },
+    // {
+    //     name:'description',
+    //     type:'string'
 
-    },
-    {
-        name:"quantity",
-        type:'number'
-    } 
+    // },
+    // {
+    //     name:"quantity",
+    //     type:'number'
+    // } 
 
     ],
    

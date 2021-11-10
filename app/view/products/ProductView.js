@@ -5,6 +5,10 @@ Ext.define('Shopping.view.products.ProductView',{
         type:'products'
     },
     xtype:'productview',
+    reference:'productview',
+    viewModel:{
+        type:'productviewmodel'
+      },
     controller:'productviewcontroller',
     columns: [
         { 
@@ -26,7 +30,8 @@ Ext.define('Shopping.view.products.ProductView',{
         },
         { 
             text: 'Description',
-            dataIndex: 'description'
+            dataIndex: 'description',
+            flex:3
         },
         { 
             text: 'Category',
@@ -47,6 +52,33 @@ Ext.define('Shopping.view.products.ProductView',{
             }
         })
     }],
+  
+    tbar:[
+        {
+            text:'Add',
+            handler:'onNewProduct'
+        },
+        {
+            text:'View',
+            handler:'onProductDetailsView',
+            bind: {
+                disabled: '{!productview.selection}'
+            }
+
+        },
+        '->',
+        {
+            text:'Delete',
+            handler:'onProductRemove',
+            bind: {
+                disabled: '{!productview.selection}'
+            }
+        },
+        {
+            text:'Refresh',
+            handler:'onProductRefresh'
+        }
+    ]
 
 
 });

@@ -7,8 +7,16 @@ Ext.define('Shopping.view.categories.CategoryFormController',{
                 window=me.getView();
                 form =window.lookupReference('add-categoryform').getForm();
                 
-                var url = ' http://localhost:3000/categories';
+                var id = form.findField('id').getValue();
+                console.log(id);
+            
+                var url = ' http://localhost:3000/categories/';
                 let method='POST';
+
+                if (id) {
+                  url += id;
+                  method = 'PUT';
+                }
 
                 if (form.isValid()) {
                     form.submit({
@@ -23,6 +31,7 @@ Ext.define('Shopping.view.categories.CategoryFormController',{
 
                           Ext.Msg.alert('Success', 'Saved successfully');
                           form.reset();
+                          form.close();
                         } else {
                           switch (action.failureType) {
                             case Ext.form.action.Action.CLIENT_INVALID:

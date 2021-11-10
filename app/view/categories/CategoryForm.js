@@ -1,8 +1,11 @@
 Ext.define('Shopping.view.categories.CategoryForm',{
-    extend:'Ext.form.Panel',
+    extend:'Ext.window.Window',
     xtype:'categoryform',
     controller:'categoryformcontroller',
-    width:500,
+    modal:true,
+    autoShow:true,
+    shadow:true,
+    width: 800,
     items:[{
         xtype:'form',
         title:'New Customer',
@@ -11,6 +14,13 @@ Ext.define('Shopping.view.categories.CategoryForm',{
             anchor: '100%'
         },
         items :[
+            {
+                fieldLabel: 'Id',
+                xtype:'numberfield',
+                name: 'id',
+                allowBlank:false,
+                readOnly:true
+            },
                 
                 {
                     fieldLabel: 'Category Name',

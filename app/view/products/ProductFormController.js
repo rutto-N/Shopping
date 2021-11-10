@@ -51,8 +51,6 @@ Ext.define('Shopping.view.products.ProductFormController',{
         
 
 
-    },onImageUpload:function(){
-      
     }
     
 });

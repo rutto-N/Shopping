@@ -4,10 +4,7 @@ Ext.define('Shopping.store.Menu',{
     storeId:'menu',
     root: {
         expanded: true,
-        children: [{
-                text: 'Category',
-                xtype:'categoryform'
-            },
+        children: [
             {
                 text: 'Category View',
                 xtype:'categoryview'
@@ -23,6 +20,15 @@ Ext.define('Shopping.store.Menu',{
                 xtype:'productview',
                 
             },
+            {
+                text:'Customer',
+                xtype:'customerform',
+
+            },
+            {
+                text:'Order Now',
+                xtype:'orderform'
+            }
 
         ]
     }

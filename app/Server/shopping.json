@@ -1,12 +1,12 @@
 {
   "categories": [
     {
-      "name": "Shoes",
-      "id": 1
+      "id": 1,
+      "name": "Food Stuff"
     },
     {
-      "name": "Mens wear",
-      "id": 2
+      "name": "Furniture",
+      "id": 4
     }
   ],
   "products": [
@@ -33,6 +33,147 @@
       "description": "ggvsdcjhkfdv",
       "quantity": "34",
       "id": 3
+    }
+  ],
+  "prods": [
+    {
+      "id": 1,
+      "name": "Mango",
+      "price": 10,
+      "description": null,
+      "category": null,
+      "orders": []
+    },
+    {
+      "id": 2,
+      "name": "Pen",
+      "price": 15,
+      "description": null,
+      "category": null,
+      "orders": []
+    },
+    {
+      "id": 3,
+      "name": "MacBook Air",
+      "price": 120000,
+      "description": null,
+      "category": null,
+      "orders": []
+    },
+    {
+      "id": 4,
+      "name": "MacBook Pro",
+      "price": 150000,
+      "description": null,
+      "category": null,
+      "orders": []
+    },
+    {
+      "id": 5,
+      "name": "Iphone 13",
+      "price": 95000,
+      "description": null,
+      "category": null,
+      "orders": []
+    },
+    {
+      "id": 6,
+      "name": "L-Shaped Sofa",
+      "price": 35000,
+      "description": null,
+      "category": null,
+      "orders": []
+    },
+    {
+      "id": 7,
+      "name": "Home Dryer",
+      "price": 3500,
+      "description": null,
+      "category": null,
+      "orders": []
+    },
+    {
+      "id": 8,
+      "name": "Bulb",
+      "price": 100,
+      "description": null,
+      "category": null,
+      "orders": []
+    },
+    {
+      "id": 9,
+      "name": "King Size Bed",
+      "price": 10000,
+      "description": null,
+      "category": null,
+      "orders": []
+    },
+    {
+      "id": 10,
+      "name": "HipHop Album",
+      "price": 1000,
+      "description": null,
+      "category": null,
+      "orders": []
+    },
+    {
+      "id": 11,
+      "name": "Java Book",
+      "price": 750,
+      "description": null,
+      "category": null,
+      "orders": []
+    },
+    {
+      "id": 12,
+      "name": "Jordan Air",
+      "price": 5000,
+      "description": null,
+      "category": null,
+      "orders": []
+    },
+    {
+      "id": 13,
+      "name": "Duvet",
+      "price": 2500,
+      "description": null,
+      "category": null,
+      "orders": []
+    },
+    {
+      "id": 14,
+      "name": "Laptop Bag",
+      "price": 2300,
+      "description": null,
+      "category": null,
+      "orders": []
+    },
+    {
+      "id": 15,
+      "name": "Jeans",
+      "price": 800,
+      "description": null,
+      "category": null,
+      "orders": []
+    },
+    {
+      "id": 16,
+      "name": "Jeans",
+      "price": 800,
+      "description": null,
+      "category": null,
+      "orders": []
+    },
+    {
+      "id": 17,
+      "name": "Pizza",
+      "price": 1200,
+      "description": null,
+      "category": {
+        "id": 1,
+        "name": "FOOD STUFF"
+      },
+      "orders": []
     }
   ]
 }
