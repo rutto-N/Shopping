@@ -1,14 +1,10 @@
 Ext.define('Shopping.view.orders.OrderFormController',{
     extend:'Ext.app.ViewController',
     alias:'controller.orderformcontroller',
-    mixins: [
-        'Shopping.mixins.GridMixin',
-    ],
-      init: function () {
-        let me = this;
-        me.loadGridStore();
-      },
-   onOrderSubmit:function(){
+     mixins: [
+    'Shopping.mixins.GridMixin',
+],
+onOrderSubmit:function(){
        var me=this;
        var view=me.getView();
        var tag=view.lookupReference('tagfield');
@@ -18,4 +14,5 @@ Ext.define('Shopping.view.orders.OrderFormController',{
     console.log(tagfieldSeletedIds);
 
    }
+    
 });

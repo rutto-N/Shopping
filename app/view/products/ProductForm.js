@@ -20,6 +20,13 @@ Ext.define('Shopping.view.products.ProductForm',{
         },
         items :[
             {
+                fieldLabel: 'Id',
+                xtype:'numberfield',
+                name: 'id',
+                allowBlank:false,
+                readOnly:true
+            },
+            {
                 fieldLabel: 'Product Category',
                 xtype:'combo',
                 store:{

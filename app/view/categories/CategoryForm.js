@@ -8,7 +8,7 @@ Ext.define('Shopping.view.categories.CategoryForm',{
     width: 800,
     items:[{
         xtype:'form',
-        title:'New Customer',
+        title:'New Categoryr',
         reference: 'add-categoryform',
         defaults: {
             anchor: '100%'

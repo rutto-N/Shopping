@@ -13,12 +13,7 @@ Ext.define('Shopping.store.Products', {
         rootProperty: 'products'
     }
 },
-grouper:{
-    direction:'DESC',
-    // groupFn: function (item) {
-    //     return item.get('category');
-    // }
-},
+
 autoLoad: true,
 
     

@@ -5,7 +5,7 @@ Ext.define('Shopping.view.orders.OrderForm',{
     width:500,
     items:[{
         xtype:'form',
-        title:'New Customer',
+        title:'Place an Order',
         reference: 'add-categoryform',
         defaults: {
             anchor: '100%'
@@ -13,7 +13,7 @@ Ext.define('Shopping.view.orders.OrderForm',{
         items :[
                {
                 xtype: 'tagfield',
-                fieldLabel: 'Select a Show',
+                fieldLabel: 'Select Product',
                 store:{
                     type:'products'
 
