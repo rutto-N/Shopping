@@ -1,9 +1,18 @@
 Ext.define('Shopping.view.base.MainAppController',{
     extend: 'Ext.app.ViewController',
     alias: 'controller.mainappcontroller',
-    init: function() {
-        var me = this,
-            viewport = me.getView(),
-            center = viewport.lookupReference('center');
+
+    onRegisterBtnClick: function(){
+        Ext.create({
+            xtype: 'registerform'
+        })
+        console.log('Register Btn clicked');
+    },
+
+    onLoginBtnClick: function(){
+        Ext.create({
+            xtype: 'loginform'
+        })
+console.log("Login btn clicked");
     }
 });

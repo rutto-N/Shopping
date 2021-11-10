@@ -2,7 +2,7 @@ Ext.define('Shopping.view.base.MainApp',{
     extend:'Ext.container.Viewport',
     xtype:'mainapp',
     layout:'border',
-    // controller:'mainappcontroller',
+    controller:'mainappcontroller',
     items: [
         {
             region: 'north',     // center region is required, no width/height specified 
@@ -12,10 +12,12 @@ Ext.define('Shopping.view.base.MainApp',{
             tbar:[
                 '->',
                 {
-                    text:'Register'
+                    text:'Register',
+                    handler: 'onRegisterBtnClick'
                 },
                 {
-                    text:'Login'
+                    text:'Login',
+                    handler: 'onLoginBtnClick'
                 }
             ] 
             
