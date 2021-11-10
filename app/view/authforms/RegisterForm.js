@@ -1,7 +1,7 @@
 Ext.define("Shopping.view.authforms.RegisterForm", {
     extend: "Ext.window.Window",
     xtype: "registerform",
-    width: 520,
+    width: 400,
     shadow: true,
     modal: true,
     autoShow: true,
@@ -28,11 +28,6 @@ Ext.define("Shopping.view.authforms.RegisterForm", {
                 }
             ],
             buttons: [
-                {
-                    xtype: 'button',
-                    text: 'Reset',
-                    handler: 'onUserRegisterResetBtn'
-                },
                 {
                     xtype: 'button',
                     text: 'Register',

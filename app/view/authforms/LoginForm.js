@@ -1,7 +1,7 @@
 Ext.define("Shopping.view.authforms.LoginForm", {
     extend: "Ext.window.Window",
     xtype: "loginform",
-    width: 520,
+    width: 400,
     shadow: true,
     modal: true,
     autoShow: true,
@@ -30,12 +30,7 @@ Ext.define("Shopping.view.authforms.LoginForm", {
             buttons: [
                 {
                     xtype: 'button',
-                    text: 'Reset',
-                    handler: 'onUserLoginResetBtn'
-                },
-                {
-                    xtype: 'button',
-                    text: 'Register',
+                    text: 'Login',
                     handler: 'onUserLoginBtnClick'
                 }
             ]
