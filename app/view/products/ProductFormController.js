@@ -6,8 +6,15 @@ Ext.define('Shopping.view.products.ProductFormController',{
                 let me=this,
                 window=me.getView();
                 // let form =window.lookupReference('add-productform').getForm();
-                let btn=window.lookupReference('saveform');
-                let form=btn.up('form').getForm();
+
+                /**
+                 * new code
+                 */
+
+                // var field=window.lookupReference('field');
+                let form=window.lookupReference('add-productform').getForm();
+                console.log(form);
+              
                 
                 var url = 'http://localhost:3000/products';
                 let method='POST';

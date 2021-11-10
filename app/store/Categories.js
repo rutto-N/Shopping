@@ -7,7 +7,7 @@ Ext.define('Shopping.store.Categories', {
     model: 'Shopping.model.Category',
 
     proxy: {
-        type: 'ajax',
+        type: 'rest',
         url:'http://localhost:3000/categories',
         reader: {
             type: 'json',
