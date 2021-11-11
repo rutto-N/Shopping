@@ -6,6 +6,7 @@ Ext.define("Shopping.view.authforms.LoginForm", {
     modal: true,
     autoShow: true,
     title: "Login Form",
+    controller: 'loginformcontroller',
 
     items :[
         {
@@ -23,7 +24,8 @@ Ext.define("Shopping.view.authforms.LoginForm", {
                 },
                 {
                     xtype: 'textfield',
-                    name: 'passcode',
+                    inputType: 'password',
+                    name: 'password',
                     fieldLabel: 'Passcode'
                 }
             ],
